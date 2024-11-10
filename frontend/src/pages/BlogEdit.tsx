@@ -82,8 +82,8 @@ export default function BlogEdit() {
         theme: "light",
         transition: Bounce,
       });
+      setIsDisabled(false);
     }
-    setIsDisabled(false);
   }
 
   async function handleDelete() {
