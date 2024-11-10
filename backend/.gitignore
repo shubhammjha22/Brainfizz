@@ -10,11 +10,12 @@ dist/
 .idea/workspace.xml
 .idea/usage.statistics.xml
 .idea/shelf
-# .toml
+.toml
 
 # deps
 node_modules/
 .wrangler
+wrangler.toml
 
 # env
 .env
