@@ -173,7 +173,10 @@ export default function NavBar({ writeMode = false }: { writeMode: boolean }) {
               </NavLink>
               <NavLink
                 to="/signin"
-                onClick={toggleMenu}
+                onClick={() => {
+                  localStorage.clear();
+                  toggleMenu();
+                }}
                 className="block text-lg"
               >
                 Sign out
